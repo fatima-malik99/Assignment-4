@@ -52,10 +52,10 @@ switch ($b){   //variable(expression) is assigned to switch statement.
 <?php
 //Write a program to print table of 2.
 
-$c =2;
-echo "<br> The table of 2 <br>";
-for($i=1; $i<=10; $i++){
-$table = $c * $i;
-echo "{$c} * {$i} = {$table} <br>";
+$c =2;   //This variable had the table number that we want to print.
+echo "<br> The table of 2 <br>"; //This is a simple heading
+for($i=1; $i<=10; $i++){         //This is another variable that holds the starting value, ending value and increment operator
+$table = $c * $i;              //This is another variable that holds the main logic of the table.
+echo "{$c} * {$i} = {$table} <br>";  //The variables are written inside {} and the expression that will be printed as it is, written outside the {}
 }
 ?>
